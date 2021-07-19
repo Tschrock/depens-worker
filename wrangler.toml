@@ -1,0 +1,11 @@
+name = "depens"
+type = "javascript"
+zone_id = "7156f218e9285f8c0e1baff47fd8e526"
+account_id = ""
+route = ""
+workers_dev = true
+
+[build]
+command = "npm install && npm run build"
+[build.upload]
+format = "service-worker"
